@@ -6,5 +6,5 @@ react-redux-Demo
     2: npm run start
 
     二、使用yarn：
-    1: yarn
+    1: yarn  or yarn install
     2: yarn run start
