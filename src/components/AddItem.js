@@ -15,10 +15,9 @@ class AddItem extends Component {
                
     handleKeyAdd = (e)=>{
        if(e.key === 'Enter') {
-          const text = e.input;
-          if(text.value.trim() === ''){
+          const text = this.input;
+          if(text.value.trim() === '')
             return;
-          }
           this.props.actions.addItem(text.value.trim());
           text.value = '';
        }
